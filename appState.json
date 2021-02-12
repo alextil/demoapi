@@ -1,0 +1,108 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "c23a0f88-add7-4ff7-a822-7de39a258a21": {
+        "id": "c23a0f88-add7-4ff7-a822-7de39a258a21",
+        "parent": null,
+        "name": "demoAPI.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "demoAPI.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "demoAPI"
+        },
+        "triggers": [
+          {
+            "resourceName": "httpApigdemoAPI",
+            "config": {
+              "defaultRoute": false,
+              "method": "ANY",
+              "route": "/"
+            }
+          }
+        ],
+        "lastUpdated": 1613162539146
+      }
+    },
+    "openFiles": [
+      "c23a0f88-add7-4ff7-a822-7de39a258a21"
+    ],
+    "currentFileId": "c23a0f88-add7-4ff7-a822-7de39a258a21",
+    "resources": {
+      "httpApigdemoAPI": {
+        "name": "httpApigdemoAPI",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 2,
+          "mode": 0,
+          "apiName": "demoAPI",
+          "stageName": "$default",
+          "corsConfig": {
+            "allowedHeaders": [
+              "*"
+            ],
+            "allowedMethods": [
+              "*"
+            ],
+            "allowedOrigins": [
+              "*"
+            ],
+            "exposedHeaders": [
+              "*"
+            ],
+            "maxAge": 300,
+            "allowCredentials": false
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.6.0",
+    "projectName": "demoAPI",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1613163259802
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "demoapi",
+      "url": "https://github.com/alextil/demoapi"
+    }
+  }
+}
